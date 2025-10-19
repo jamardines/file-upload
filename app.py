@@ -1,4 +1,5 @@
 from flask import Flask
+from controllers.file_controller import file_bp
 from config import Config
 from extensions import db
 

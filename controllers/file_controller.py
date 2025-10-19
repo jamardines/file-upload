@@ -1,7 +1,6 @@
-from flask import Blueprint, request, jsonify, send_file
+from flask import Blueprint, request, jsonify, send_file, current_app
 from services.file_service import save_file, update_file, delete_file
 from models.uploaded_file import UploadedFile
-from app import app
 import logging
 import uuid
 
@@ -15,7 +14,7 @@ def upload_file():
             return jsonify({'message': 'No file uploaded'}), 400
 
         file = request.files['file']
-        folder = f"{app.config['UPLOAD_FOLDER']}/{uuid.uuid4().hex}"  # new folder per request
+        folder = f"{current_app.config['UPLOAD_FOLDER']}/{uuid.uuid4().hex}"  # new folder per request
         uploaded = save_file(file, folder)
 
         return jsonify({
@@ -53,7 +52,7 @@ def update_existing_file(file_id):
             return jsonify({'message': 'No file provided'}), 400
 
         file = request.files['file']
-        updated = update_file(file_id, file, app.config['UPLOAD_FOLDER'])
+        updated = update_file(file_id, file, current_app.config['UPLOAD_FOLDER'])
 
         return jsonify({
             'message': 'File updated successfully',
@@ -63,7 +62,6 @@ def update_existing_file(file_id):
     except Exception as e:
         logging.error(f"Update error: {e}")
         return jsonify({'message': str(e)}), 400
-
 
 # 🔴 DELETE — Delete file
 @file_bp.route('/file/<int:file_id>', methods=['DELETE'])

@@ -166,3 +166,83 @@
 2025-10-19 22:50:24,132 [INFO] File deleted from storage: uploads\b50ee7b1c20a4138ad4d54ab6a107721_images.jpg
 2025-10-19 22:50:24,135 [INFO] Record deleted: ID=14
 2025-10-19 22:50:24,135 [INFO] 127.0.0.1 - - [19/Oct/2025 22:50:24] "DELETE /file/14 HTTP/1.1" 200 -
+2025-10-20 00:01:25,068 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-20 00:01:25,068 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-20 00:01:25,068 [INFO]  * Restarting with stat
+2025-10-20 00:01:25,388 [WARNING]  * Debugger is active!
+2025-10-20 00:01:25,389 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:01:32,240 [INFO] File saved: uploads/6639a4f291b34a5ba9477daa73e71890\5e0c6546d3fd4d0da8f5db151f45e909_images.jpg
+2025-10-20 00:01:32,242 [INFO] 127.0.0.1 - - [20/Oct/2025 00:01:32] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-20 00:02:32,544 [INFO] 127.0.0.1 - - [20/Oct/2025 00:02:32] "GET /file/16 HTTP/1.1" 200 -
+2025-10-20 00:02:56,758 [ERROR] Update error: name 'app' is not defined
+2025-10-20 00:02:56,758 [INFO] 127.0.0.1 - - [20/Oct/2025 00:02:56] "[31m[1mPUT /file/16 HTTP/1.1[0m" 400 -
+2025-10-20 00:03:00,142 [ERROR] Update error: name 'app' is not defined
+2025-10-20 00:03:00,142 [INFO] 127.0.0.1 - - [20/Oct/2025 00:03:00] "[31m[1mPUT /file/16 HTTP/1.1[0m" 400 -
+2025-10-20 00:03:33,334 [INFO] File saved: uploads/e330103fc8c6455fa0da942e687881a0\7e48eb525141487badbafe6f3f8ebdf4_566521319_796291586516568_3038263871586687687_n.jpg
+2025-10-20 00:03:33,335 [INFO] 127.0.0.1 - - [20/Oct/2025 00:03:33] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-20 00:03:44,521 [INFO] 127.0.0.1 - - [20/Oct/2025 00:03:44] "GET /file/17 HTTP/1.1" 200 -
+2025-10-20 00:03:58,282 [INFO] 127.0.0.1 - - [20/Oct/2025 00:03:58] "[31m[1mPOST /file/17 HTTP/1.1[0m" 405 -
+2025-10-20 00:04:04,803 [ERROR] Update error: name 'app' is not defined
+2025-10-20 00:04:04,803 [INFO] 127.0.0.1 - - [20/Oct/2025 00:04:04] "[31m[1mPUT /file/17 HTTP/1.1[0m" 400 -
+2025-10-20 00:06:35,014 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\controllers\\file_controller.py', reloading
+2025-10-20 00:06:35,080 [INFO]  * Restarting with stat
+2025-10-20 00:06:35,463 [WARNING]  * Debugger is active!
+2025-10-20 00:06:35,464 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:06:41,668 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-20 00:06:41,668 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-20 00:06:41,669 [INFO]  * Restarting with stat
+2025-10-20 00:06:41,992 [WARNING]  * Debugger is active!
+2025-10-20 00:06:41,993 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:06:56,474 [INFO] 127.0.0.1 - - [20/Oct/2025 00:06:56] "[33mPOST /upload%0A HTTP/1.1[0m" 404 -
+2025-10-20 00:07:14,581 [INFO] File saved: uploads/a0f916b8e82e445884e2e3a8b02d1e1c\3ebd894929d243868fc481365febfa3e_images.jpg
+2025-10-20 00:07:14,583 [INFO] 127.0.0.1 - - [20/Oct/2025 00:07:14] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-20 00:07:35,855 [INFO] 127.0.0.1 - - [20/Oct/2025 00:07:35] "GET /file/18 HTTP/1.1" 200 -
+2025-10-20 00:07:50,205 [INFO] File saved: uploads/f5b1b217039f4819963ada226d515a49\dce4128db9df4c4b9653f6e191208eb9_images.jpg
+2025-10-20 00:07:50,206 [INFO] 127.0.0.1 - - [20/Oct/2025 00:07:50] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-20 00:07:51,893 [INFO] File saved: uploads/098c2cdaad524a39a4e44222ac36d646\41d2f307953748369d371cc4399508aa_images.jpg
+2025-10-20 00:07:51,894 [INFO] 127.0.0.1 - - [20/Oct/2025 00:07:51] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-20 00:08:07,142 [INFO] 127.0.0.1 - - [20/Oct/2025 00:08:07] "[31m[1mPOST /file/20 HTTP/1.1[0m" 405 -
+2025-10-20 00:08:11,704 [INFO] 127.0.0.1 - - [20/Oct/2025 00:08:11] "GET /file/20 HTTP/1.1" 200 -
+2025-10-20 00:08:54,648 [INFO] File saved: uploads/b8a98a2fac994d5da2d0488d1c4d3007\0eb01ac5bc2749b69116404a6628372f_images.jpg
+2025-10-20 00:08:54,649 [INFO] 127.0.0.1 - - [20/Oct/2025 00:08:54] "[35m[1mPOST /upload?file HTTP/1.1[0m" 201 -
+2025-10-20 00:09:08,244 [INFO] 127.0.0.1 - - [20/Oct/2025 00:09:08] "GET /file/21 HTTP/1.1" 200 -
+2025-10-20 00:09:22,415 [INFO] File saved: uploads\086555f92f79443bab82d14587466ee9_566521319_796291586516568_3038263871586687687_n.jpg
+2025-10-20 00:09:22,419 [INFO] File updated: ID=21
+2025-10-20 00:09:22,419 [INFO] 127.0.0.1 - - [20/Oct/2025 00:09:22] "PUT /file/21 HTTP/1.1" 200 -
+2025-10-20 00:09:31,412 [INFO] File deleted from storage: uploads\086555f92f79443bab82d14587466ee9_566521319_796291586516568_3038263871586687687_n.jpg
+2025-10-20 00:09:31,416 [INFO] Record deleted: ID=21
+2025-10-20 00:09:31,416 [INFO] 127.0.0.1 - - [20/Oct/2025 00:09:31] "DELETE /file/21 HTTP/1.1" 200 -
+2025-10-20 00:10:15,570 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\controllers\\file_controller.py', reloading
+2025-10-20 00:10:15,635 [INFO]  * Restarting with stat
+2025-10-20 00:10:16,006 [WARNING]  * Debugger is active!
+2025-10-20 00:10:16,008 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:16,059 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\controllers\\file_controller.py', reloading
+2025-10-20 00:10:16,123 [INFO]  * Restarting with stat
+2025-10-20 00:10:16,477 [WARNING]  * Debugger is active!
+2025-10-20 00:10:16,478 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:25,066 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:25,134 [INFO]  * Restarting with stat
+2025-10-20 00:10:25,495 [WARNING]  * Debugger is active!
+2025-10-20 00:10:25,497 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:25,533 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:25,589 [INFO]  * Restarting with stat
+2025-10-20 00:10:25,921 [WARNING]  * Debugger is active!
+2025-10-20 00:10:25,922 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:32,967 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:33,032 [INFO]  * Restarting with stat
+2025-10-20 00:10:33,399 [WARNING]  * Debugger is active!
+2025-10-20 00:10:33,400 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:33,551 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:33,614 [INFO]  * Restarting with stat
+2025-10-20 00:10:33,961 [WARNING]  * Debugger is active!
+2025-10-20 00:10:33,963 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:34,417 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:34,475 [INFO]  * Restarting with stat
+2025-10-20 00:10:34,816 [WARNING]  * Debugger is active!
+2025-10-20 00:10:34,817 [INFO]  * Debugger PIN: 231-756-444
+2025-10-20 00:10:34,978 [INFO]  * Detected change in 'C:\\Users\\ardin\\OneDrive\\Desktop\\file-upload\\flask_file_upload_mvc\\services\\file_service.py', reloading
+2025-10-20 00:10:35,035 [INFO]  * Restarting with stat
+2025-10-20 00:10:35,364 [WARNING]  * Debugger is active!
+2025-10-20 00:10:35,366 [INFO]  * Debugger PIN: 231-756-444
